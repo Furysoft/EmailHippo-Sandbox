@@ -1,0 +1,150 @@
+{
+  "version": {
+    "v": "More-(1.0.94)",
+    "doc": "https://api-docs.emailhippo.com/en/latest/"
+  },
+  "meta": {
+    "lastModified": "Sun, 17 May 2020 13:55:20 GMT",
+    "expires": "Tue, 16 Jun 2020 13:55:20 GMT",
+    "email": "ok.email@test.com",
+    "tld": "com",
+    "domain": "test.com",
+    "subDomain": null,
+    "user": "ok.email",
+    "emailHashMd5": "0a31ae7a14c2c3d795c15b5d29b1db2a",
+    "emailHashSha1": "6B3881DFB3119396B38D1F51DCF4924BF1E9F777",
+    "emailHashSha256": "0ccff559c8512cb5f8cdc6e7faa1c2a656bb34ef20cde99651a9e22d566bf828"
+  },
+  "disposition": {
+    "isRole": false,
+    "isFreeMail": false
+  },
+  "emailVerification": {
+    "syntaxVerification": {
+      "isSyntaxValid": true,
+      "reason": "Success"
+    },
+    "dnsVerification": {
+      "isDomainHasDnsRecord": true,
+      "isDomainHasMxRecords": true,
+      "recordRoot": {
+        "ipAddresses": [
+          "104.20.67.182",
+          "104.20.66.182"
+        ]
+      },
+      "recordWww": {
+        "ipAddresses": [
+          "104.20.66.182",
+          "104.20.67.182"
+        ]
+      },
+      "mxRecords": [
+        {
+          "preference": 1,
+          "exchange": "aspmx.l.google.com",
+          "ipAddresses": [
+            "108.177.15.27"
+          ]
+        },
+        {
+          "preference": 10,
+          "exchange": "alt3.aspmx.l.google.com",
+          "ipAddresses": [
+            "64.233.189.27"
+          ]
+        },
+        {
+          "preference": 5,
+          "exchange": "alt1.aspmx.l.google.com",
+          "ipAddresses": [
+            "209.85.233.27"
+          ]
+        },
+        {
+          "preference": 5,
+          "exchange": "alt2.aspmx.l.google.com",
+          "ipAddresses": [
+            "142.250.4.27"
+          ]
+        },
+        {
+          "preference": 10,
+          "exchange": "alt4.aspmx.l.google.com",
+          "ipAddresses": [
+            "74.125.28.27"
+          ]
+        }
+      ],
+      "txtRecords": [
+        "\"google-site-verification=fO3cFvVBzySeQPOWc_QEwg6mzZFS5muntoHN4jvH5fQ\"",
+        "\"v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCrLHiExVd55zd/IQ/J/mRwSRMAocV/hMB3jXwaHH36d9NaVynQFYV8NaWi69c1veUtRzGt7yAioXqLj7Z4TeEUoOLgrKsn8YnckGs9i3B3tVFB+Ch/4mPhXWiNfNdynHWBcPcbJ8kjEQ2U8y78dHZj1YeRXXVvWob2OaKynO8/lQIDAQAB;\"",
+        "\"v=spf1 ip4:23.253.182.0/23 ip4:50.23.218.192/27 ip4:50.31.32.0/19 ip4:62.13.128.0/24 ip4:62.13.129.128/25 ip4:62.13.136.0/21 ip4:62.13.144.0/21 ip4:62.13.152.0/23 ip4:64.233.160.0/19 ip4:66.102.0.0/20 ip4:66.249.80.0/20 ip4:72.14.192.0/18 ip4:72.52.72.32/\""
+      ]
+    },
+    "mailboxVerification": {
+      "result": "Ok",
+      "reason": "Success"
+    }
+  },
+  "infrastructure": {
+    "mail": {
+      "serviceTypeId": "GoogleForBiz",
+      "mailServerLocation": "US",
+      "smtpBanner": "220 mx.google.com ESMTP g65si6974046wmf.60 - gsmtp"
+    },
+    "web": {
+      "hasAliveWebServer": true
+    }
+  },
+  "sendAssess": {
+    "inboxQualityScore": 10,
+    "sendRecommendation": "SafeToSend"
+  },
+  "spamAssess": {
+    "isDisposableEmailAddress": false,
+    "isDarkWebEmailAddress": false,
+    "isGibberishDomain": false,
+    "isGibberishUser": false,
+    "domainRiskScore": 0,
+    "formatRiskScore": 0,
+    "profanityRiskScore": 0,
+    "overallRiskScore": 0,
+    "actionRecomendation": "Allow",
+    "blockLists": [
+      {
+        "blockListName": "spamhaus",
+        "isListed": false,
+        "listedReason": null,
+        "listedMoreInfo": null
+      }
+    ]
+  },
+  "spamTrapAssess": {
+    "isSpamTrap": false,
+    "spamTrapDescriptor": null
+  },
+  "hippoTrust": {
+    "score": 8,
+    "level": "High"
+  },
+  "social": {
+    "gravatar": {
+      "imageUrl": "//www.gravatar.com/avatar/yourimagehere",
+      "profileUrl": "//www.gravatar.com/yourprofilehere"
+    }
+  },
+  "domain": null,
+  "performance": {
+    "syntaxCheck": 0,
+    "dnsLookup": 35,
+    "spamAssessment": 0,
+    "mailboxVerification": 873,
+    "webInfrastructurePing": 3,
+    "other": 0,
+    "overallExecutionTime": 911
+  },
+  "diagnostic": {
+    "key": "ae6dc86a-20f2-4d0f-8f74-13358cb31d1a"
+  }
+}
