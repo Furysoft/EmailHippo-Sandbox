@@ -1,5 +1,5 @@
 from flask import Flask
-import json;
+import json
 
 app = Flask(__name__)
 
